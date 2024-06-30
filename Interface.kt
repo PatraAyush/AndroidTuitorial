@@ -31,7 +31,7 @@ class square(var s:Double):drawable{
     override fun drawInfo()
     {
         println("Square")
-        println("Side:$side")
+        println("Side: $side")
         println("Area:${area()}")
         println("Perimeter:${perimeter()}")
     }
